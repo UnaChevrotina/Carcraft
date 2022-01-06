@@ -1,0 +1,117 @@
+.Bodd{
+    padding-left: 10px;
+    padding-top: 100px ;
+}
+
+.Bodd .box {
+	position: relative;
+    width: 100.2%;
+    height: 225px;
+    margin: 25px;
+	margin-top: 50px;
+    margin-left: -4px;
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(149, 149, 149);
+    
+}
+
+.Bodd .box .imag {
+    margin: -1px 0px 0px 20px; /* haut | droit | bas | gauche */
+    width: 300px;
+    height: 200px;
+    border: solid black 3px;
+
+}
+
+.Bodd .boxVoitureMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-right: 5vh;
+}
+.Bodd .boxVoitureMain .imag {
+    margin: -1px 0px 0px 20px; /* haut | droit | bas | gauche */
+    width: 500px;
+    height: 300px;
+
+}
+.Bodd .boxVoitureSub {
+	position: relative;
+    width: 30%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: black solid;
+	font-size: 25px;
+}
+
+.boutonMenu {
+	background: white;
+	border: black solid;
+	color: black;
+	font-size: 120%;
+	padding: 1%;
+}
+
+.nomUtilisateur{
+	font-family: "Autumn";
+    width: 15%;
+    font-size: 20px;
+    display: flex;
+    margin:15px 0px 10px 0px; /* haut | droit | bas | gauche */
+    color: rgb(255, 255, 255);
+}
+
+.boutonNewsletter {
+	text-decoration: none;
+	color: black;
+	border: black solid;
+	padding: 2px;
+	text-align: center;
+}
+.boutonNewsletter:hover{
+	color: blue;
+	border: blue solid;
+	padding: 2px;
+}
+
+
+.divBarreMenu {
+	background: blue;
+	margin-top: -12vh;
+	padding: 1%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse
+}
+
+.contact {
+	text-align: center;
+}
+
+.contactGras {
+	text-align: center;
+	font-weight: bold;
+}
+
+.formCommande {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    align-content: center;
+	margin-top: 10vh;
+}
+
+.texteCentré {
+	text-align: center;
+}
+.texteCentréRouge {
+	text-align: center;
+	color: red;
+}
